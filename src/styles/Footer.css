@@ -1,0 +1,15 @@
+.Footer {
+    width: 100%;
+    height: 71px;
+    display: grid;
+    grid:
+      "main Min  . . ." auto
+      / 1fr 1fr 1fr 1fr;
+    gap: 0px 8px;
+    background-color: #212121;
+    
+}
+
+h1 {
+    color: white;
+}
