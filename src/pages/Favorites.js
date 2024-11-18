@@ -1,8 +1,10 @@
 import React from 'react'
+import '../styles/Favorites.css'
+import People from '../components/People'
 
 function Favorites() {
   return (
-   <h1>Hello World</h1>
+      <People />
   )
 }
 

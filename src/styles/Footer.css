@@ -1,15 +1,30 @@
-.Footer {
-    width: 100%;
-    height: 71px;
-    display: grid;
-    grid:
-      "main Min  . . ." auto
-      / 1fr 1fr 1fr 1fr;
-    gap: 0px 8px;
-    background-color: #212121;
-    
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 390px;
+  height: 71px;
+  z-index: 1000;
 }
 
-h1 {
-    color: white;
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer-icon {
+  font-size: 24px;
+}
+
+.footer-text {
+  font-family: "SF Pro Rounded", sans-serif;
+  font-weight: 500;
 }
