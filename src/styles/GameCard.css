@@ -1,0 +1,65 @@
+.game-card {
+    display: flex;
+    align-items: center;
+    background-color: #212121;
+    width: 320px;
+    height: 172px;
+    border-radius: 20px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative; /* Enables absolute positioning for children */
+}
+
+.game-card-image img {
+    width: 77px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.game-card-details {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding: 10px;
+}
+
+.game-card-details h3 {
+    font-size: 20px;
+    margin: 0;
+    font-family: "SF Pro Rounded", sans-serif;
+    font-weight: bold;
+}
+
+.game-card-details p {
+    font-size: 16px;
+    margin: 4px 0 0;
+    font-family: "SF Pro Rounded", sans-serif;
+    color: #bbbbbb;
+}
+
+/* Follow button styles */
+.follow-btn-events {
+    position: absolute; /* Absolute positioning within the game-card */
+    bottom: 16px; /* Offset from the bottom */
+    right: 16px; /* Offset from the right */
+    background-color: #3a82f7;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
+    box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
+}
+
+.follow-btn:hover {
+    background-color: #3373d1; /* Darker blue on hover */
+}

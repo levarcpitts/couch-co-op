@@ -13,8 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: left;
-  padding: 120px 0; /* Adds space above and below */
-  height: 100vh; /* Full viewport height */
+  padding: 50px 0; /* Adds space above and below */
   box-sizing: border-box;
 }
 
@@ -24,5 +23,4 @@
   flex-direction: column;
   align-items: center;
   gap: 10px; /* Spacing between user cards */
-  margin-bottom: 80px; /* Prevent overlap with footer */
 }

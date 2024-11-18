@@ -1,21 +1,20 @@
-import React from 'react';
-import UserCard from './UserCard';
+import React from 'react'
+import GameCard from './GameCard';
 import '../styles/FavoritesCard.css'; // Contains header styles
 import '../styles/UserCard.css'; // Contains user card styles
 
-function People() {
+
+function Games() {
   return (
     <>
       <header className="people-header">
-        <h1>People</h1>
+        <h1>Games</h1>
       </header>
       <div className="user-cards">
-        <UserCard />
-        <UserCard />
-        <UserCard />
+        <GameCard />
       </div>
     </>
-  );
+  )
 }
 
-export default People;
+export default Games
