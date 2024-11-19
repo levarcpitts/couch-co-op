@@ -52,6 +52,7 @@ const Footer = ({ activePage, setActivePage }) => {
           }`}
         />
         <span className="footer-text">Profile</span>
+        <div className="slider"></div>
       </div>
 
     </div>

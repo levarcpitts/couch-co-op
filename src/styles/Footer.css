@@ -14,6 +14,7 @@
   height: 60px;
   z-index: 1000;
   border-radius: 20px;
+  
 }
 
 
@@ -31,9 +32,18 @@
 
 .footer-icon.active-icon {
   color: #3A82F7;
+  background-color: rgba(255, 255, 255, 0.85);
+  align-items: center; /* Aligns icon and text vertically */
+  justify-content: center;
+  border-radius: 20px;
+  padding: 10px 30px; /* Size of the button */
+  font-size: 24px; /* Text size */
+  cursor: pointer;
+
 }
 
 .footer-text {
   font-family: "SF Pro Rounded", sans-serif;
   font-weight: 500;
 }
+
