@@ -1,10 +1,9 @@
-# Getting Started with Create React App
+Couch Co-Op is a app designed to bring players together locally to play games. No more playing with randos on the internet when you can play games with people in your area! 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out the Figma design files for this project here: 
 
-## Available Scripts
+https://www.figma.com/design/mndQ6ePGBbVbr7ovrIiMUb/Couch-Co-Op?node-id=0-1&t=Iuy0vuxuhx85GUf2-1
 
-In the project directory, you can run:
 
 ### `npm start`
 
