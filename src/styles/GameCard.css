@@ -3,7 +3,7 @@
     align-items: center;
     background-color: #212121;
     width: 320px;
-    height: 172px;
+    height: 140px;
     border-radius: 20px;
     padding: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -47,11 +47,11 @@
     position: absolute; /* Absolute positioning within the game-card */
     bottom: 16px; /* Offset from the bottom */
     right: 16px; /* Offset from the right */
-    background-color: #3a82f7;
+    background-color: #3A82F7;
     color: #ffffff;
     border: none;
     border-radius: 20px;
-    padding: 8px 12px;
+    padding: 8px 15px;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;

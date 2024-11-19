@@ -1,0 +1,110 @@
+
+  .event-card {
+    width: 320px;
+    height: 160px;
+    background-color: #2b2b2b;
+    border-radius: 20px;
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative; /* Enables absolute positioning for child elements */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .event-header {
+    display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Aligns content at the top */
+  font-size: 10px;
+  margin-bottom: 8px;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .user-info div {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+  }
+  
+  .profile-pic {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .event-body {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 12px;
+    position: relative; /* Allows positioning for buttons */
+  }
+  
+  .game-image {
+  width: 77px;
+  height: auto;
+  border-radius: 5px;
+  border: 2px solid white;
+  object-fit: cover;
+  }
+
+  .event-details {
+    display: flex;
+    flex-direction: column; /* Stack title and date */
+    gap: 4px; /* Add small spacing between title and date */
+    padding-top: 20px;
+    text-align: left;
+  }
+  
+  .event-details h3 {
+    margin: 0; /* Remove unnecessary margins */
+    font-size: 1.2rem; /* Adjust font size as needed */
+  }
+  
+  .event-date {
+  margin: 0; /* Align date closely under the title */
+  font-size: 0.9rem; /* Adjust font size for the date */
+  color: #aaa;
+  }
+  
+  .event-footer {
+    position: absolute; /* Allow positioning relative to .event-card */
+    bottom: 20px; /* Adjust to move the buttons higher */
+    left: 120px; /* Adjust to move the buttons further to the left */
+    display: flex;
+    gap: 10px; /* Spacing between the buttons */
+  }
+  
+  .btn {
+    width: 80px;
+    padding: 8px 0;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    -webkit-box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
+    -moz-box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
+    box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
+  }
+  
+  .attend {
+    background-color: #3fb950;
+    color: white;
+  }
+  
+  .decline {
+    background-color: #d73a49;
+    color: white;
+  }
+  
+  
+  .user-det {
+    text-align: left;
+  }

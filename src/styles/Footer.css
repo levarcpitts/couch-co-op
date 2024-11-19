@@ -7,11 +7,11 @@
   color: #fff;
   padding: 10px 0;
   position: fixed;
-  bottom: 80px;
-  width: 390px;
+  bottom: 20px;
+  width: 370px;
   height: 71px;
   z-index: 1000;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .footer-item {

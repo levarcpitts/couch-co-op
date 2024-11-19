@@ -77,7 +77,7 @@ body {
     -webkit-box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
     -moz-box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
     box-shadow: 6px 9px 14px 3px rgba(0,0,0,1);
-    margin-top: 30px; /* Creates space between the button and text */
+    margin-top: 3px; /* Creates space between the button and text */
 }
 
 .profile-card .follow-btn:hover {
