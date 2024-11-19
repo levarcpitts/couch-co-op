@@ -4,10 +4,10 @@ import EventCard from './EventsCard'
 function Events() {
   return (
     <>
-    <header className="favorites-header">
+    <header className="app-header">
     <h1>Events</h1>
   </header>
-  <div className="favorites-cards">
+  <div className="app-cards">
     <EventCard />
     <EventCard />
     <EventCard />

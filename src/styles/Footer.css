@@ -7,11 +7,13 @@
   color: #fff;
   padding: 10px 0;
   position: fixed;
-  bottom: 20px;
-  width: 370px;
-  height: 71px;
+  bottom: 30px; /* Ensure it's at the bottom of the screen */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Correct centering offset */
+  width: 360px; /* Make it span the full app width */
+  height: 60px;
   z-index: 1000;
-  border-radius: 20px;
+  border-radius: 20px; /* Rounded top corners only */
 }
 
 .footer-item {
@@ -23,6 +25,10 @@
 
 .footer-icon {
   font-size: 24px;
+}
+
+.footer-icon.active-icon {
+  color: #3A82F7;
 }
 
 .footer-text {

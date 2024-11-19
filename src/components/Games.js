@@ -6,10 +6,10 @@ import '../styles/UserCard.css'; // Contains user card styles
 function Games() {
   return (
     <>
-      <header className="favorites-header">
+      <header className="app-header">
         <h1>Games</h1>
       </header>
-      <div className="favorites-cards">
+      <div className="app-cards">
         <GameCard />
         <GameCard />
         <GameCard />

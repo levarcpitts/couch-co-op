@@ -5,23 +5,51 @@ import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import '../styles/Footer.css'; // Ensure the CSS file is imported
 
-const Footer = () => {
+const Footer = ({ activePage, setActivePage }) => {
   return (
     <div className="footer">
-      <div className="footer-item">
-        <FavoriteIcon className="footer-icon" />
+      <div
+        className="footer-item"
+        onClick={() => setActivePage('Favorites')} // Set active page to Favorites
+      >
+        <FavoriteIcon
+          className={`footer-icon ${
+            activePage === 'Favorites' ? 'active-icon' : ''
+          }`}
+        />
         <span className="footer-text">Favorites</span>
       </div>
-      <div className="footer-item">
-        <LocationOnIcon className="footer-icon" />
+      <div
+        className="footer-item"
+        onClick={() => setActivePage('Near Me')}
+      >
+        <LocationOnIcon
+          className={`footer-icon ${
+            activePage === 'Near Me' ? 'active-icon' : ''
+          }`}
+        />
         <span className="footer-text">Near Me</span>
       </div>
-      <div className="footer-item">
-        <SearchIcon className="footer-icon" />
+      <div
+        className="footer-item"
+        onClick={() => setActivePage('Search')}
+      >
+        <SearchIcon
+          className={`footer-icon ${
+            activePage === 'Search' ? 'active-icon' : ''
+          }`}
+        />
         <span className="footer-text">Search</span>
       </div>
-      <div className="footer-item">
-        <AccountCircleIcon className="footer-icon" />
+      <div
+        className="footer-item"
+        onClick={() => setActivePage('Profile')}
+      >
+        <AccountCircleIcon
+          className={`footer-icon ${
+            activePage === 'Profile' ? 'active-icon' : ''
+          }`}
+        />
         <span className="footer-text">Profile</span>
       </div>
     </div>

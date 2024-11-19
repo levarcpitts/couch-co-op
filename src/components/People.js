@@ -5,10 +5,10 @@ import '../styles/UserCard.css'; // Contains user card styles
 function People() {
   return (
     <>
-      <header className="favorites-header">
+      <header className="app-header">
         <h1>People</h1>
       </header>
-      <div className="favorites-cards">
+      <div className="app-cards">
         <UserCard />
         <UserCard />
         <UserCard />
