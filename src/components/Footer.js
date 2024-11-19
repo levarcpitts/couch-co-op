@@ -3,6 +3,7 @@ import FavoriteIcon from "@mui/icons-material/Favorite";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+
 import '../styles/Footer.css'; // Ensure the CSS file is imported
 
 const Footer = ({ activePage, setActivePage }) => {
@@ -10,7 +11,7 @@ const Footer = ({ activePage, setActivePage }) => {
     <div className="footer">
       <div
         className="footer-item"
-        onClick={() => setActivePage('Favorites')} // Set active page to Favorites
+        onClick={() => setActivePage('Favorites')} // Switch to Favorites
       >
         <FavoriteIcon
           className={`footer-icon ${
@@ -21,7 +22,7 @@ const Footer = ({ activePage, setActivePage }) => {
       </div>
       <div
         className="footer-item"
-        onClick={() => setActivePage('Near Me')}
+        onClick={() => setActivePage('Near Me')} // Switch to Near Me
       >
         <LocationOnIcon
           className={`footer-icon ${
@@ -52,6 +53,7 @@ const Footer = ({ activePage, setActivePage }) => {
         />
         <span className="footer-text">Profile</span>
       </div>
+
     </div>
   );
 };

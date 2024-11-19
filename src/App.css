@@ -74,6 +74,9 @@
 }
 
 .filter-button {
+  display: flex;
+  align-items: center; /* Aligns icon and text vertically */
+  justify-content: center; /* Centers content horizontally */
   background-color: #007bff; /* Blue background */
   color: white; /* White text */
   border: none;
@@ -83,8 +86,12 @@
   cursor: pointer;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
   transition: background-color 0.3s ease;
-  margin-left: 20px; /* Move button slightly left */
-  margin-bottom: -15px; /* Move button slightly down */
+  margin-left: 10px; /* Adjust spacing from the "Near You" text */
+  margin-top: 15px;
+}
+
+.filter-button svg {
+  margin-right: 8px; /* Adds spacing between the icon and text */
 }
 
 .filter-button:hover {
