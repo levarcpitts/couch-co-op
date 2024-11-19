@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Favorites from './pages/Favorites';
 import NearMe from './pages/NearMe';
 import UserPage from './pages/UserPage';
+import GamePage from './pages/GamePage'
 
 function App() {
   const [activePage, setActivePage] = useState('Favorites'); // Track the active page
@@ -13,7 +14,7 @@ function App() {
       <div className="app-container">
         {/* {activePage === 'Favorites' && <Favorites />}
         {activePage === 'Near Me' && <NearMe />} */}
-        <UserPage />
+        <GamePage />
       </div>
       <Footer activePage={activePage} setActivePage={setActivePage} />
     </div>
