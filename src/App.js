@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="App">
       <div className="app-container">
-        {activePage === 'Favorites' && <Favorites />}
+        {/* {activePage === 'Favorites' && <Favorites />}
         {activePage === 'Near Me' && <NearMe />}
-        {activePage === 'Profile' && <UserPage/>}
-        {/* <GamePage /> */}
+        {activePage === 'Profile' && <UserPage/>} */}
+        <UserPage />
       </div>
       <Footer activePage={activePage} setActivePage={setActivePage} />
     </div>

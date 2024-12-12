@@ -42,13 +42,16 @@
     height: 100px;
     border-radius: 50%;
     border: 2px solid #ffffff;
+    position: absolute;
+    top: 30px;
+    left: 120px;
   
   }
   
   .username {
     font-size: 25px;
     font-weight: bold;
-    margin-top: 0px;
+    margin-top: 5px;
   }
   
   .action-buttons {
@@ -56,6 +59,9 @@
     justify-content: space-between;
     width: 50%;
     align-items: center;
+    position: absolute; 
+    right: 100px;
+    top: 5px;
   }
   
   .follow-button {
