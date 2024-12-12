@@ -77,7 +77,7 @@
   .event-footer {
     position: absolute; /* Allow positioning relative to .event-card */
     bottom: 20px; /* Adjust to move the buttons higher */
-    left: 120px; /* Adjust to move the buttons further to the left */
+    left: 140px; /* Adjust to move the buttons further to the left */
     display: flex;
     gap: 10px; /* Spacing between the buttons */
   }

@@ -88,6 +88,10 @@ body {
     justify-self: center; 
     align-self: center; 
     grid-area: user_picture; 
+    position: relative;
+   right: 120px;
+   bottom: 30px
+    
   }
   .user_name {
     justify-self: start; 

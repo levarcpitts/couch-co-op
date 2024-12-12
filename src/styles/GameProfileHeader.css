@@ -65,9 +65,8 @@
     align-items: center; /* Align with the center of the image */
      /* Add spacing between Follow button and star icon */
     position: absolute;
-    margin-top: 145px;
-    margin-left: 100px;
-
+    bottom: -130px;
+    left: 125px;
   }
   
   .follow-button {

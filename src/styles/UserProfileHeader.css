@@ -60,8 +60,8 @@
     width: 50%;
     align-items: center;
     position: absolute; 
-    right: 100px;
-    top: 5px;
+    right: 70px;
+    bottom: -130;
   }
   
   .follow-button {
